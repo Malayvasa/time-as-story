@@ -2,8 +2,19 @@ import { useState, useEffect } from "react";
 import { TextScramble } from "@a7sc11u/scramble";
 
 function App() {
-  //function to calculate amount of seconds passed from a particular date and update it every second
-  const [secondsPassed, setSecondsPassed] = useState(0);
+  //function to calculate number of seconds passed from a date
+  const getSeconds = (date) => {
+    const now = new Date();
+    const seconds = Math.floor((now - date) / 1000);
+    return seconds;
+  };
+
+  const [secondsPassed, setSecondsPassed] = useState(
+    getSeconds(
+      new Date("Fri Jan 13 2022 21:00:00 GMT+0530 (India Standard Time)")
+    )
+  );
+
   useEffect(() => {
     const interval = setInterval(() => {
       setSecondsPassed(secondsPassed + 1);
@@ -31,7 +42,7 @@ function App() {
           <span className="text-xl md:text-4xl text-lime-400">
             {secondsPassed}s
           </span>
-          <br /> since you've been here.
+          <br /> since this was published.
         </div>
 
         <hr className="border-lime-400 mt-4 md:mt-12"></hr>
