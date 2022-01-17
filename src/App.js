@@ -32,26 +32,28 @@ function App() {
   return (
     <div className="w-screen bg-black">
       <div className="flex flex-col min-h-screen gap-y-4 px-8 md:w-1/2 mx-auto font-sans text-white">
-        <div className="w-max md:text-4xl font-bold pt-12 md:pt-24">
-          Time as Story
-        </div>
-        <div className="md:text-2xl"> Malay Vasa - Task 1</div>
-        <div className="md:text-2xl">
-          {" "}
-          It has been{" "}
-          <span className="text-xl md:text-4xl text-lime-400">
-            {secondsPassed}s
-          </span>
-          <br /> since this was published.
+        <div className="sticky top-0 bg-black  bg-opacity-50 filter backdrop-blur-md">
+          <div className="w-max text-3xl md:text-4xl font-bold pt-4 md:pt-8">
+            Time as Story
+          </div>
+          <div className="md:text-xl pb-4"> Malay Vasa - Task 1</div>
+          <div className="md:text-xl">
+            {" "}
+            It has been{" "}
+            <span className="text-xl md:text-3xl text-lime-400">
+              {secondsPassed}s
+            </span>
+            <br /> since this was published.
+          </div>
+
+          <hr className="border-lime-400 mt-4 md:mt-8 animate animate-pulse md:animate-ping"></hr>
         </div>
 
-        <hr className="border-lime-400 mt-4 md:mt-12"></hr>
-
-        <div className="md:text-xl text-justify text-lime-400 my-4 pb-8">
+        <div className="md:text-xl text-justify text-lime-400 pb-8">
           <TextScramble
             as="div"
             play={true}
-            speed={3}
+            speed={30}
             scramble={3}
             step={3}
             stepInterval={1}
