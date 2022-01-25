@@ -74,6 +74,37 @@ function DayThree() {
               impose order, to make sense of a chaotic universe. Storytelling,
               at one level, is a manifestation of this process.
             </p>
+            <p>
+              When we look at stories in the context of time, during the class
+              one major questions arose : Is time bound by story? Or Is story
+              bound by time?
+            </p>
+            <p>
+              I argue to break this down into two separate questions, because I
+              don’t think these are mutually exclusive both time and story
+              affected by each other.
+            </p>
+            <p>
+              Time is bound by story, as previously mentioned in the class we
+              have seen that we experience time prospectively, the idea being we
+              remember events with more value/novelty in a better way. Since it
+              is not possible to remember every hour of our life, or every hour
+              of human history, we tend to condense down these into stories.
+              Stories become the devices through which we make sense of time
+              that has passed.
+            </p>
+            <p>
+              Story is bound by time, stories rely a lot on different aspects of
+              time to establish their narrative. Regardless of the way a story
+              may deal with time it is still the passage of time that allows
+              plots to unfold, characters to be drawn, etc. The aspects used
+              usually are : Time Frame, Narrator Time, Plot Time etc. The
+              standard storytelling technique involves a straightforward
+              chronological plot. But there have been several deviations
+              involving the use of temporal distortion, fragmentation,
+              non-linear timelines and time travel.
+            </p>
+            <div className="pb-8"></div>
           </div>
         </div>
       </div>
